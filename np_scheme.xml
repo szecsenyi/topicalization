@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme>
+	<attribute id="topic" name="topic" type="nominal_button" text="topik">
+		<value id="topic_err" name="error" />
+		<value id="topic_yes" name="yes" />
+		<value id="topic_no" name="no" />
+	</attribute>
+	<attribute id="np_head" name="case" type="nominal_list" text="A bővítmény esete">
+		<value id="X" name="X" />
+		<value id="nom" name="n" />
+		<value id="acc" name="a" />
+		<value id="nak" name="d" />
+		<value id="gen" name="g" />
+		<value id="val" name="i" />
+		<value id="ba" name="x" />
+		<value id="bol" name="e" />
+		<value id="ban" name="2" />
+		<value id="hoz" name="t" />
+		<value id="nal" name="3" />
+		<value id="tol" name="b" />
+		<value id="ra" name="s" />
+		<value id="on" name="p" />
+		<value id="rol" name="h" />
+		<value id="ig" name="9" />
+		<value id="kor" name="m" />
+		<value id="ert" name="c" />
+		<value id="va" name="y" />
+		<value id="an" name="w" />
+		<value id="kent" name="f" />
+		<value id="Tkent" name="u" />
+		<value id="pp" name="PP" />
+	</attribute>
+	<attribute id="theta" name="theta" type="nominal_button" text="Tematikus szerep">
+		<value id="othertheta" name="other" />
+		<value id="agent" name="agent" />
+		<value id="patient" name="patient" />
+		<value id="experient" name="experient" />
+		<value id="theme" name="theme" />
+		<value id="theta_time" name="time" />
+		<value id="theta_place" name="place" />
+	</attribute>
+	<attribute id="semtype" name="semtype" type="nominal_button" text="Szemantikai típus">
+		<value id="semtypeother" name="other" />
+		<value id="anything" name="anything" />
+		<value id="thing" name="thing" />
+		<value id="animate" name="anim" />
+		<value id="human" name="human" />
+	</attribute>
+	<attribute id="ntype" name="ntype" type="nominal_button" text="a bővítmény típusa">
+		<value id="ntypeother" name="other" />
+		<value id="pron" name="pron" />
+		<value id="dem" name="dem" />
+		<value id="refl" name="refl" />
+		<value id="def" name="def" />
+		<value id="name" name="name" />
+		<value id="indef" name="indef" />
+	</attribute>
+	<attribute id="nplength" name="nplen" type="freetext" text="NP hossz">
+		<value id="nplen" name="nplength" />
+	</attribute>
+	<attribute id="indep" name="independent" type="nominal_button" text="Szemantikai típus">
+		<value id="indep_undef" name="undefined" />
+		<value id="indep_yes" name="yes" />
+		<value id="indep_no" name="no" />
+	</attribute>
+	<attribute id="np_head" name="np_head" type="freetext" text="A bővítmény fejének tulajdonságai">
+		<value id="np_head_1" name="np_head" />
+	</attribute>
+	<attribute id="reg_id" name="regent_id" type="freetext" text="Az ige azonosítója">
+		<value id="reg_id_1" name="regid" />
+	</attribute>
+</annotationscheme>

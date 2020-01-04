@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customization>
+<rule pattern="{all}" style="bold=true" />
+<rule pattern="ok={undef}" style="background=blue"/>
+<rule pattern="ok={no}" style="background=red"/>
+</customization>

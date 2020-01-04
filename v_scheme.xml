@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme>
+	<attribute id="vid" name="vid" type="freetext" text="Az ige azonosítója">
+		<value id="vid_1" name="vid" />
+	</attribute>
+	<attribute id="sid" name="sid" type="freetext" text="A mondat azonosítója">
+		<value id="sid_1" name="sid" />
+	</attribute>
+	<attribute id="ok" name="ok" type="nominal_button" text="ok">
+		<value id="ok_undef" name="undef" />
+		<value id="ok_yes" name="yes" />
+		<value id="ok_no" name="no" />
+	</attribute>
+</annotationscheme>
